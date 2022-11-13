@@ -27,7 +27,22 @@ class App extends Component {
         end: d4,
         name: "Demo Task 2",
         color: "orange"
+      },
+      {
+        id: 3,
+        start: d3,
+        end: d4,
+        name: "Demo Task 2",
+        color: "orange"
+      },
+      {
+        id: 4,
+        start: d3,
+        end: d4,
+        name: "Demo Task 2",
+        color: "orange"
       }
+      
     ];
     this.links = [{ id: 1, start: 1, end: 2 }];
   }
