@@ -20,13 +20,13 @@ public class SurgeryReader {
             System.out.println();*/
         
         //FILE OF NAMES AND TOOL IDS
-        String filename = "data/mapper.txt";
+        String filename = "./mapper.txt";
             MapperReader myMapper = new MapperReader(filename);
             //uses myMapper to get list of tag names and IDs
             TreeMap<String, String> myTree = myMapper.getMap();
 
         //FILE OF DATA
-        filename = "data/data.txt";
+        filename = "./data.txt";
             DataReader myData = new DataReader(filename, myTree);
             //each element is one tag name and corresponding ID
             /*ArrayList<String> idsFromInput = new ArrayList<String>();
