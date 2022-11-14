@@ -3,54 +3,48 @@ import ReactDOM from "react-dom";
 
 import TimeLine from "react-gantt-timeline";
 import "./styles.css";
+//import DataDriver from "DataDriver.js";
 
 class App extends Component {
   constructor(props) {
     super(props);
-    let d1 = new Date();
-    let d2 = new Date();
-    d2.setDate(d2.getDate() + 5);
-    let d3 = new Date();
-    d3.setDate(d3.getDate() + 8);
-    let d4 = new Date();
-    d4.setDate(d4.getDate() + 20);
-    this.data = [
-      {
-        id: 1,
-        start: d1,
-        end: d2,
-        name: "Demo Task 1"
+
+    //let newData = new DataDriver();
+    //const dataArrayList = newData.getScans();
+
+
+    this.data = [{
+      id: 75000,
+      start: new Date(2022, 11-1, 6, 18, 16, 17),
+      end: new Date(2022, 11, 6, 18, 23, 17),
+      name: "Tool Tag 1"
       },
       {
-        id: 2,
-        start: d3,
-        end: d4,
-        name: "Demo Task 2",
-        color: "orange"
+      id: 71000,
+      start: new Date(2022, 11-1, 6, 18, 16, 18),
+      end: new Date(2022, 11, 6, 18, 56, 18),
+      name: "Surgeon Wristband 1"
       },
       {
-        id: 3,
-        start: d3,
-        end: d4,
-        name: "Demo Task 2",
-        color: "orange"
+      id: 75000,
+      start: new Date(2022, 11-1, 6, 18, 1, 17),
+      end: new Date(2022, 11, 6, 18, 59, 17),
+      name: "Tool Tag 1"
       },
       {
-        id: 4,
-        start: d3,
-        end: d4,
-        name: "Demo Task 2",
-        color: "orange"
+      id: 71000,
+      start: new Date(2022, 11-1, 6, 18, 1, 18),
+      end: new Date(2022, 11, 6, 18, 59, 18),
+      name: "Surgeon Wristband 1"
       }
-      
     ];
-    this.links = [{ id: 1, start: 1, end: 2 }];
+    this.links = [{}];
   }
 
   render() {
     return (
       <div className="app-container">
-        <h1>Getting Started Demo</h1>
+        <h1 class="header1">Timeline</h1>
         {/* DayWidth<input type="range" min="30" max="500" value={this.state.daysWidth} onChange={this.handleDayWidth} step="1"/>
        Item Height<input type="range" min="30" max="500" value={this.state.itemheight} onChange={this.handleItemHeight} step="1"/> */}
         <div className="time-line-container">
