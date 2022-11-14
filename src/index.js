@@ -13,30 +13,31 @@ class App extends Component {
     //const dataArrayList = newData.getScans();
 
 
-    this.data = [{
-      id: 75000,
-      start: new Date(2022, 11-1, 6, 18, 16, 17),
-      end: new Date(2022, 11, 6, 18, 23, 17),
-      name: "Tool Tag 1"
-      },
+    this.data = [
       {
-      id: 71000,
-      start: new Date(2022, 11-1, 6, 18, 16, 18),
-      end: new Date(2022, 11, 6, 18, 56, 18),
-      name: "Surgeon Wristband 1"
+        id: 70000,
+        start: new Date(2022, 11-1, 6, 18, 16, 17),
+        end: new Date(2022, 11, 7, 13, 58, 34),
+        name: "Tool Tag 1"
       },
-      {
-      id: 75000,
-      start: new Date(2022, 11-1, 6, 18, 1, 17),
-      end: new Date(2022, 11, 6, 18, 59, 17),
-      name: "Tool Tag 1"
-      },
-      {
-      id: 71000,
-      start: new Date(2022, 11-1, 6, 18, 1, 18),
-      end: new Date(2022, 11, 6, 18, 59, 18),
-      name: "Surgeon Wristband 1"
-      }
+        {
+        id: 70000,
+        start: new Date(2022, 11-1, 7, 13, 59, 16),
+        end: new Date(2022, 11, 7, 14, 3, 8),
+        name: "Tool Tag 1"
+        },
+        {
+        id: 70000,
+        start: new Date(2022, 11-1, 7, 14, 6, 36),
+        end: new Date(2022, 11, 7, 14, 15, 5),
+        name: "Tool Tag 1"
+        },
+        {
+        id: 70000,
+        start: new Date(2022, 11-1, 7, 14, 15, 29),
+        end: new Date(2022, 11, 14, 14, 13, 1),
+        name: "Tool Tag 1"
+        }
     ];
     this.links = [{}];
   }
