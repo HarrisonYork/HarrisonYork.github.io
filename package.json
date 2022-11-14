@@ -4,7 +4,7 @@
     "description": "",
     "keywords": [],
     "main": "src/index.js",
-    "homepage": "http://HarrisonYork.github.io/myapp",
+    "homepage": "http://harrisonyork.github.io",
     "dependencies": {
         "moment": "2.22.2",
         "react": "^16.4.2",
