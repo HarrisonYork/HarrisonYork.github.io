@@ -73,7 +73,7 @@ class App extends Component {
         {/* DayWidth<input type="range" min="30" max="500" value={this.state.daysWidth} onChange={this.handleDayWidth} step="1"/>
        Item Height<input type="range" min="30" max="500" value={this.state.itemheight} onChange={this.handleItemHeight} step="1"/> */}
         <div className="time-line-container">
-          <TimeLine data={this.data} links={this.links} />
+          <TimeLine data={this.data} links={this.links} mode={"day"}/>
         </div>
       </div>
     );
