@@ -14,76 +14,11 @@ class App extends Component {
 
 
     this.data = [
-      {
-        id: 458752,
-        start: new Date(2022, 11-1, 21, 13, 56, 45),
-        end: new Date(2022, 11-1, 21, 13, 58, 21),
-        name: "Silver Tool 1"
-        },
-        {
-        id: 503808,
-        start: new Date(2022, 11-1, 21, 13, 56, 49),
-        end: new Date(2022, 11-1, 21, 13, 59, 11),
-        name: "Tool Tag 3"
-        },
-        {
-        id: 454656,
-        start: new Date(2022, 11-1, 21, 13, 58, 17),
-        end: new Date(2022, 11-1, 21, 13, 58, 54),
-        name: "Black Scissors 1"
-        },
-        {
-        id: 458752,
-        start: new Date(2022, 11-1, 15, 13, 58, 57),
-        end: new Date(2022, 11-1, 15, 13, 59, 7),
-        name: "Silver Tool 1"
-        },
-        {
-        id: 454656,
-        start: new Date(2022, 11-1, 15, 13, 59, 0),
-        end: new Date(2022, 11-1, 15, 13, 59, 9),
-        name: "Black Scissors 1"
-        },
-          {
-          id: 458752,
-          start: new Date(2022, 11-1, 18, 14, 39, 17),
-          end: new Date(2022, 11-1, 18, 14, 39, 19),
-          name: "Silver Tool 1"
-          },
-          {
-          id: 454656,
-          start: new Date(2022, 11-1, 18, 14, 39, 19),
-          end: new Date(2022, 11-1, 18, 14, 39, 21),
-          name: "Black Scissors 1"
-          },
-          {
-            id: 458752,
-            start: new Date(2022, 11-1, 18, 14, 39, 20),
-            end: new Date(2022, 11-1, 18, 14, 39, 38),
-            name: "Silver Tool 1"
-            },
-            {
-            id: 454656,
-            start: new Date(2022, 11-1, 18, 14, 39, 39),
-            end: new Date(2022, 11-1, 18, 14, 44, 33),
-            name: "Black Scissors 1"
-            },
-            {
-            id: 458752,
-            start: new Date(2022, 11-1, 18, 14, 40, 14),
-            end: new Date(2022, 11-1, 18, 14, 45, 37),
-            name: "Silver Tool 1"
-            },
-            {
-              id: 454656,
-              start: new Date(2022, 11-1, 18, 14, 47, 16),
-              end: new Date(2022, 11-1, 21, 14, 9, 16),
-              name: "Black Scissors 1"
-              },
+      
               {
               id: 458752,
-              start: new Date(2022, 11-1, 18, 12, 47, 18),
-              end: new Date(2022, 11-1, 18, 14, 27, 19),
+              start: new Date(2022, 11-1, 21, 8, 47, 18),
+              end: new Date(2022, 11-1, 21, 10, 27, 19),
               name: "Silver Tool 1"
               },
               {
@@ -94,28 +29,30 @@ class App extends Component {
               },
               {
               id: 454656,
-              start: new Date(2022, 11-1, 21, 12, 9, 19),
-              end: new Date(2022, 11-1, 21, 14, 18, 21),
+              start: new Date(2022, 11-1, 21, 9, 9, 19),
+              end: new Date(2022, 11-1, 21, 12, 38, 21),
               name: "Black Scissors 1"
               },
               {
               id: 35317286,
-              start: new Date(2022, 11-1, 21, 14, 9, 22),
+              start: new Date(2022, 11-1, 21, 10, 9, 22),
               end: new Date(2022, 11-1, 21, 17, 9, 23),
-              name: "Tool Tag 4"
+              name: "Surgeon Tag 1"
               },
               {
-              id: 35317286,
-              start: new Date(2022, 11-1, 21, 14, 9, 24),
-              end: new Date(2022, 11-1, 21, 16, 9, 26),
-              name: "Tool Tag 4"
-              },
-              {
-              id: 454656,
-              start: new Date(2022, 11-1, 21, 14, 9, 25),
-              end: new Date(2022, 11-1, 21, 15, 9, 27),
-              name: "Black Scissors 1"
-              }
+                id: 35317286,
+                start: new Date(2022, 11-1, 21, 14, 9, 24),
+                end: new Date(2022, 11-1, 21, 18, 9, 26),
+                name: "Tool Tag 4",
+                color: "grey"
+                },
+                {
+                id: 454656,
+                start: new Date(2022, 11-1, 21, 13, 9, 25),
+                end: new Date(2022, 11-1, 21, 17, 9, 27),
+                name: "Surgeon 1",
+                color: "red"
+                }
     ];
     this.links = [{}];
   }
