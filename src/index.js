@@ -16,52 +16,106 @@ class App extends Component {
     this.data = [
       {
         id: 458752,
-        start: new Date(2022, 11-1, 6, 18, 16, 17),
-        end: new Date(2022, 11-1, 7, 13, 58, 34),
-        name: "Tool Tag 1"
-        },
-        {
-        id: 454656,
-        start: new Date(2022, 11-1, 7, 13, 59, 3),
-        end: new Date(2022, 11-1, 7, 14, 2, 52),
-        name: "Tool Tag 2"
-        },
-        {
-        id: 458752,
-        start: new Date(2022, 11-1, 7, 13, 59, 16),
-        end: new Date(2022, 11-1, 7, 14, 3, 8),
-        name: "Tool Tag 1"
-        },
-        {
-        id: 454656,
-        start: new Date(2022, 11-1, 7, 14, 6, 19),
-        end: new Date(2022, 11-1, 7, 14, 15, 2),
-        name: "Tool Tag 2"
-        },
-        {
-        id: 458752,
-        start: new Date(2022, 11-1, 7, 14, 6, 36),
-        end: new Date(2022, 11-1, 7, 14, 15, 5),
-        name: "Tool Tag 1"
+        start: new Date(2022, 11-1, 21, 13, 56, 45),
+        end: new Date(2022, 11-1, 21, 13, 58, 21),
+        name: "Silver Tool 1"
         },
         {
         id: 503808,
-        start: new Date(2022, 11-1, 7, 14, 14, 24),
-        end: new Date(2022, 11-1, 7, 14, 14, 44),
+        start: new Date(2022, 11-1, 21, 13, 56, 49),
+        end: new Date(2022, 11-1, 21, 13, 59, 11),
         name: "Tool Tag 3"
         },
         {
-        id: 503808,
-        start: new Date(2022, 11-1, 7, 14, 15, 23),
-        end: new Date(2022, 11-1, 7, 14, 15, 35),
-        name: "Tool Tag 3"
+        id: 454656,
+        start: new Date(2022, 11-1, 21, 13, 58, 17),
+        end: new Date(2022, 11-1, 21, 13, 58, 54),
+        name: "Black Scissors 1"
         },
         {
         id: 458752,
-        start: new Date(2022, 11-1, 7, 14, 15, 29),
-        end: new Date(2022, 11-1, 14, 14, 13, 1),
-        name: "Tool Tag 1"
-        }
+        start: new Date(2022, 11-1, 15, 13, 58, 57),
+        end: new Date(2022, 11-1, 15, 13, 59, 7),
+        name: "Silver Tool 1"
+        },
+        {
+        id: 454656,
+        start: new Date(2022, 11-1, 15, 13, 59, 0),
+        end: new Date(2022, 11-1, 15, 13, 59, 9),
+        name: "Black Scissors 1"
+        },
+          {
+          id: 458752,
+          start: new Date(2022, 11-1, 18, 14, 39, 17),
+          end: new Date(2022, 11-1, 18, 14, 39, 19),
+          name: "Silver Tool 1"
+          },
+          {
+          id: 454656,
+          start: new Date(2022, 11-1, 18, 14, 39, 19),
+          end: new Date(2022, 11-1, 18, 14, 39, 21),
+          name: "Black Scissors 1"
+          },
+          {
+            id: 458752,
+            start: new Date(2022, 11-1, 18, 14, 39, 20),
+            end: new Date(2022, 11-1, 18, 14, 39, 38),
+            name: "Silver Tool 1"
+            },
+            {
+            id: 454656,
+            start: new Date(2022, 11-1, 18, 14, 39, 39),
+            end: new Date(2022, 11-1, 18, 14, 44, 33),
+            name: "Black Scissors 1"
+            },
+            {
+            id: 458752,
+            start: new Date(2022, 11-1, 18, 14, 40, 14),
+            end: new Date(2022, 11-1, 18, 14, 45, 37),
+            name: "Silver Tool 1"
+            },
+            {
+              id: 454656,
+              start: new Date(2022, 11-1, 18, 14, 47, 16),
+              end: new Date(2022, 11-1, 21, 14, 9, 16),
+              name: "Black Scissors 1"
+              },
+              {
+              id: 458752,
+              start: new Date(2022, 11-1, 18, 12, 47, 18),
+              end: new Date(2022, 11-1, 18, 14, 27, 19),
+              name: "Silver Tool 1"
+              },
+              {
+              id: 35317286,
+              start: new Date(2022, 11-1, 21, 11, 9, 12),
+              end: new Date(2022, 11-1, 21, 14, 39, 20),
+              name: "Tool Tag 4"
+              },
+              {
+              id: 454656,
+              start: new Date(2022, 11-1, 21, 12, 9, 19),
+              end: new Date(2022, 11-1, 21, 14, 18, 21),
+              name: "Black Scissors 1"
+              },
+              {
+              id: 35317286,
+              start: new Date(2022, 11-1, 21, 14, 9, 22),
+              end: new Date(2022, 11-1, 21, 17, 9, 23),
+              name: "Tool Tag 4"
+              },
+              {
+              id: 35317286,
+              start: new Date(2022, 11-1, 21, 14, 9, 24),
+              end: new Date(2022, 11-1, 21, 16, 9, 26),
+              name: "Tool Tag 4"
+              },
+              {
+              id: 454656,
+              start: new Date(2022, 11-1, 21, 14, 9, 25),
+              end: new Date(2022, 11-1, 21, 15, 9, 27),
+              name: "Black Scissors 1"
+              }
     ];
     this.links = [{}];
   }
@@ -73,7 +127,7 @@ class App extends Component {
         {/* DayWidth<input type="range" min="30" max="500" value={this.state.daysWidth} onChange={this.handleDayWidth} step="1"/>
        Item Height<input type="range" min="30" max="500" value={this.state.itemheight} onChange={this.handleItemHeight} step="1"/> */}
         <div className="time-line-container">
-          <TimeLine data={this.data} links={this.links} />
+          <TimeLine data={this.data} links={this.links} mode={"day"}/>
         </div>
       </div>
     );
